@@ -17,5 +17,10 @@ public class Main {
         int dif=sub.subtraction(a,b);
         System.out.println("Difference of a and b: "+dif);
 
+        //multiplication
+        Multiplication mul = new Multiplication();
+        int product = mul.multiply(a,b);
+        System.out.println("Product of a and b: "+product);
+
     }
 }
